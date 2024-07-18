@@ -1,0 +1,85 @@
+.hero {
+    margin-top: 80px;
+    height: calc(100vh - 80px);
+    padding: 0 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.hero > img {
+    max-width: 520px;
+    width: 100%;
+    border-radius: 26px;
+}
+
+.hero .left-section {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+
+.hero .left-section .top h2 {
+    font-size: 44px;
+    margin-bottom: 24px;
+}
+
+.hero .left-section .top p {
+    color: var(--color-secondary);
+    font-size: 18px;
+    margin-bottom: 24px;
+    text-align: justify;
+}
+
+.hero .left-section .top .buttons button,
+.projects .inner
+.contact .items .item button {
+    font-size: 17px;
+    border: none;
+    padding: 5px 20px;
+    background-color: var(--color-accent);
+    border: 1px solid var(--color-border);
+    border-radius: 12px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+
+
+.hero .left-section .top .buttons button.doc,
+.contact .items .item button {
+    background: var(--color-primary);
+    color: var(--color-accent);
+}
+
+.hero .left-section .top .buttons button.git:hover {
+    background: var(--color-primary);
+    color: var(--color-accent);
+    border-color: transparent;
+}
+
+.hero .left-section .top .buttons button{
+    height: 40px;
+    margin: 5px;
+}
+
+.hero .left-section .bottom p {
+    font-size: 14px;
+    color: var(--color-secondary);
+    margin-bottom: 10px;
+}
+
+.hero .left-section .bottom .icons {
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    width: fit-content;
+}
+
+.hero .left-section .bottom .icons a{
+    color: var(--color-primary);
+}

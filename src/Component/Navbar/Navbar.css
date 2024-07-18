@@ -1,0 +1,71 @@
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 32px;
+    border: 1px solid var(--color-border);
+    position: absolute;
+    top: 16px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 16px;
+    padding: 12px;
+}
+
+nav .logo{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+nav .logo img{
+    width: 50px;
+    height: 70px;
+}
+
+nav .logo a{
+    color: var(--color-primary);
+    font-weight: 600;
+}
+nav .nav-links{
+    display: flex;
+    gap: 24px;
+}
+
+nav .nav-links a{
+    font-size: 14px;
+    color: var(--color-secondary);
+    transition: all 0.3s ease;
+}
+
+nav .nav-links a:hover{
+    color: var(--color-primary);
+}
+
+nav button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+    font-size: 14px;
+    height: 32px;
+    width: 122px;
+    background: var(--color-primary);
+    color: var(--color-accent);
+    border-radius: 8px;
+    border: 1px solid transparent;
+    transition: all 0.3s ease;
+}
+
+nav button:hover,
+.hero .left-section .top .buttons
+button.doc:hover,
+.contact .items .item  button:hover{
+    color: var(--color-primary);
+    background: var(--color-hover-bg);
+    border-color: var(--color-hover-border);
+}
+
+nav button .i{
+    font-size: 20px;
+}
